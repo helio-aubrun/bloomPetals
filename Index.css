@@ -1,0 +1,96 @@
+html {font-family:cursive;
+font-size: 17px;}
+#home {color: black;
+text-decoration: none;}
+header {
+    height: 90px;
+    margin: 0;
+    background:grey;
+    font-size: 30px;
+}
+nav {
+    display: flex;
+    justify-content:space-evenly;
+}
+#site-search {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(216, 216, 216);
+    border-width: 0px;
+    width: 250px;
+}
+#logo-desc{
+    text-align: center;
+}
+#photo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#photo img{
+    width: 200px;
+}
+#service {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    text-align: center;
+}
+#photos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#photos img{
+    width: 200px;
+}
+footer {
+    height: 90px;
+    margin: 0;
+    background:grey;
+}
+#entreprise {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+}
+#photo_left {
+    float: right;
+}
+#photo_left img {
+    width: 250px;
+}
+.formulaire {
+    text-align: center;
+}
+#civilite {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(216, 216, 216);
+}
+#nom {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(216, 216, 216);
+    border-width: 0px;
+}
+#email {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(216, 216, 216);
+    border-width: 0px;
+    width: 220px;
+}
+#message {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(216, 216, 216);
+    border-width: 0px;
+    width: 220px;
+    height: 300px;
+}
+#envoyer {
+    border-radius: 10px 10px 10px 10px;
+    background-color:rgb(98, 98, 255);
+    width: 100px;
+    height: 25px;
+}
